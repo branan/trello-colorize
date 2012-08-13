@@ -10,6 +10,8 @@
 
 var colorize = function() {
     $(".list-card").css("background-color", "").css("border", "");
+    // Blocked
+    $(".red-label").css("background-color", "#ff9999");
     // Community
     $(".purple-label").css("background-color", "#cc99ff");
     // From Dev
@@ -18,8 +20,6 @@ var colorize = function() {
     $(".yellow-label").css("background-color", "#ffff99");
     // ???
     $(".orange-label").css("background-color", "#ff9966");
-    // Blocked
-    $(".red-label").css("background-color", "#ff9999");
     // ???
     $(".blue-label").css("background-color", "#99ccff");
     // Special visual marker for blocked cards
