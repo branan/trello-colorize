@@ -5,6 +5,7 @@
 // @require       http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // @description  Changes background color of Trello cards to match labels
 // @match      https://trello.com/board/*
+// @exclude    https://trello.com/board/software-delivery/*
 // @copyright  2012+, Deepak Giridharagopal
 // ==/UserScript==
 
